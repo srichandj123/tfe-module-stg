@@ -4,5 +4,8 @@ module "rg" {
 
   region = "Central US"
   rgname = "jakka-rg-test"
-  tags = "Client=OCC"
+  tags = {
+Client ="OCC"
+Env ="Dev"
+}
 }
